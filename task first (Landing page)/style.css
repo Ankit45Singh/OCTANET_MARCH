@@ -1,0 +1,126 @@
+body{
+    margin: 4% 5% 2% 5%;
+    background-color: black;
+}
+.wlcmnote{
+    color: hsl(0, 9%, 87%);
+    /* font-size: 3rem; */
+    text-align: center;
+}
+.head{
+    display: flex;
+    height: 40%;
+    width: 100%;
+}
+.inhead{
+    height: 40vh;
+    width: 33vw;
+}
+.bimg{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    color: rgb(176, 167, 167);
+    display: flex;
+    /* font-size: 2rem; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+a{
+    margin: 1% 0 1% 0;
+ padding: 0 3% 0 3%;
+  text-decoration: none;
+  /* height: 7%;
+  width: 10%; */
+  color: #ffffff;
+}
+a:hover{
+    background-color: #9c989e;
+    color: black;
+}
+@media screen and (max-width: 854px) {
+    .nav{
+      flex-direction: column;
+      
+      justify-content: space-evenly;
+    }
+    .nav a{
+        text-align: center;
+    }
+    .Htwo{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
+.afternav{
+    background-image: url(jorgen-hendriksen-i3BGqO7m8k4-unsplash.jpg);
+    /* height: 70vh; */
+    width: 76.7vw;
+    background-size: cover; 
+    opacity: 0.8;
+    font-size: 2vw;
+    padding: 7% 7% 25% 7%;
+    display: flex;
+    flex-direction: column;
+}
+.cntctbtn{
+    background-color: rgb(115, 118, 10);
+    font-size:1.5vw;
+    color: rgb(214, 220, 125);
+    width: 20%;
+   border-radius: 3mm;
+   border: none;
+   padding: 1%;
+}
+.cntctbtn:hover{
+    background-color: darkgray;
+    color: #4636ce;
+
+}
+.section{
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-around;
+    padding: 10% 10% 0% 10%;
+    width: 70vw;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.insectionleft{
+    height: 100%;
+    width: 100%;
+}
+.insectionright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* font-size: 1.5vw; */
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding-top: 3%;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+}
+.infoot{
+    width: 200px;
+    align-items: center;
+    color: #ffffff;
+}
+.last{
+    margin-top: 3%;
+    border-top: 1px solid white;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+   padding-top:3%;
+}
+.inlast{
+    width: 200px;
+    text-align: center;
+}
