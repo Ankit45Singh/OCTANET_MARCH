@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.ONE{
+    padding: 4% 5% 4% 5% ;
+    width: 90vw;
+  
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    column-gap: 2vw;
+    row-gap: 2vh;
+    flex-wrap: wrap;
+}
+.adder{
+    background-color: rgb(26, 97, 97);
+}
+
+.two{
+
+    border: none;
+    padding: 0;
+    height: 10vh;
+    font-size: larger;
+    text-align: center;
+}
+
+.task{
+   
+    flex-grow: 2;
+    background-color: rgb(213, 213, 227);
+}
+.add{
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+.date{
+    padding-right: 15px;
+    flex-grow: 1;
+    background-color: brown;
+}
+.see{
+    background-color: #b2491f;
+    margin-left: 5%;
+    border: none;
+    width: 130px;
+    height: 30px;
+}
+.watch,.seeAll{
+    background-color: #b2491f;
+    border: none;
+    font-size: 1rem;
+    padding: 3% 10% 3% 10%;
+    margin-left: 5%;
+}
+.seeAll{
+    margin: 0% 0% 10% 5%;
+}
+.view{
+    background-color: rgb(50, 71, 71);
+}
+
+.three{
+    border: none;
+    padding: 0;
+    height: 56.4vh;
+    width: 20vw;
+    background-color: blueviolet;
+
+}
+.mid{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+.left{
+    flex-grow: 0;
+}
+.inleft{
+    color: #dac9c4;
+    font-size: 2rem;
+    width: 50%;
+    padding: 30% 0 50% 20%;
+
+}
+.Mid{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    overflow-y: auto;
+}
+.data{
+    background-color: aqua;
+    height: 7vh;
+    margin: 0 5% 0 5%;
+    padding:0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.heading{
+    background-color: brown;
+    height: 8vh;
+    font-size: 2rem;
+    text-align:center;
+    padding-top: 15px;
+
+}
+
+.warning{
+    width: 50vw;
+    height: 30vh;
+    font-size: 3em;
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid black;
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    background-color: #b2491f;
+    z-index: 3;
+}
+.hidden{
+    display: none;
+}
